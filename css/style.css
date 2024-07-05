@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.507), transparent), url("../image/giphy.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+}
+body > footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* nav-start */
+nav > ul {
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 15px;
+    text-align: center;
+}
+nav li:hover {
+    background-color: cadetblue;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+    color: black;
+}
+nav .collaps {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    margin-left: 20px;
+}
+nav li:hover > .collaps {
+    display: block;
+}
+.collaps li {
+    margin-right: 0;
+}
+/* nav-end */
+
+form{
+    padding: 0 10px;
+}
+label{
+    display: block;
+    margin: 5px 0;
+}
+button {
+    padding: 0 5px;
+}
+hr {
+    margin: 5px 0;
+}
+form input[type="text"],
+form input[type="date"],
+form textarea,
+form select {
+    width: 200px;
+}
+form select {
+    padding: 0 5px;
+}
+input[type="submit"] {
+    margin-top: 5px;
+    padding: 0 5px;
+}

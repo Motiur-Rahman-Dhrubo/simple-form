@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panda page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/images.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a>
+                    <ul class="collaps">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a>
+                            <ul class="collaps">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <hr>
+            <label for="search">Search your image hare:
+                <input type="search" id="search">
+                <button>search</button>
+            </label>
+            <img src="image/images.jpeg" alt="panda">
+            <br>
+            <a href="#">for more click hare</a>
+            <hr>
+            <h4>feedback form:</h4>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+            <label for="select">
+                Select Your Aim:
+            </label>
+            <select id="select">
+                <option value="">select one</option>
+                <option value="abcd">abcd</option>
+                <option value="defg">defg</option>
+                <option value="ghij">ghij</option>
+            </select>
+            <label for="comment">Comment:</label>
+            <textarea id="comment"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </main>
+    <footer>
+        <p><small>&copy; 2024, all rights resorved.</small></p>
+    </footer>
+</body>
+</html>
